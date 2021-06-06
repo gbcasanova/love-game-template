@@ -9,5 +9,5 @@ My template for creating games in LÖVE. It includes the setup for a fully funct
 * [gamera](https://github.com/kikito/gamera) - Camera system.
 * [Yonder](https://github.com/thenerdie/Yonder) - State management.
 
-### Scene creation.
+### Scene creation
 When creating a scene, duplicate the ```screens/exampleScreen.lua``` file and remember to add it on the *gameStates* section of ```libs/ScreenManager.lua```. For more information, read the Yonder [documentation](https://github.com/thenerdie/Yonder).
