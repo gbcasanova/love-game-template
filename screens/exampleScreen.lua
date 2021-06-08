@@ -26,7 +26,6 @@ local screen = {}
 
 function screen:Load(ScreenManager) -- pass a reference to the ScreenManager. Avoids circlular require()
     collectgarbage()  -- Unload assets.
-    love.audio.stop() -- Stop audio sources.
     self.assets = loadAssets() -- Load assets.
 end
 
