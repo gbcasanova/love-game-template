@@ -7,10 +7,27 @@ into a new Lua module so you can write the logic for a new gamestate. Be sure to
 
 ]]--
 
+local function loadAssets()
+    local assets = {}
+
+    -- Sprites.
+    assets.sprites = {}
+
+    -- Music.
+    assets.sprites = {}
+
+    -- Sound effects.
+    assets.sprites = {}
+
+    return assets
+end
+
 local screen = {}
 
 function screen:Load(ScreenManager) -- pass a reference to the ScreenManager. Avoids circlular require()
-    --
+    collectgarbage()  -- Unload assets.
+    love.audio.stop() -- Stop audio sources.
+    self.assets = loadAssets() -- Load assets.
 end
 
 function screen:Update(dt)
@@ -18,7 +35,7 @@ function screen:Update(dt)
 end
 
 function screen:Draw()
-    love.graphics.print("Hello World!")
+    --
 end
 
 function screen:MousePressed(x, y, button)
