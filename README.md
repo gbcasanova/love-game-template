@@ -6,7 +6,7 @@ My template for creating games in **LÖVE**. It includes the setup for a fully f
 * [bump](https://github.com/kikito/bump.lua) - Collision detection.
 * [Cartographer](https://github.com/tesselode/cartographer) - Load, read and draw Tiled maps.
 * [Classic](https://github.com/rxi/classic/) - Class module for object orientation.
-* [Flux] (https://github.com/rxi/flux/) - lightweight tweening library.
+* [Flux](https://github.com/rxi/flux/) - lightweight tweening library.
 * [gamera](https://github.com/kikito/gamera) - Camera system.
 * [Push](https://github.com/Ulydev/push) - Make fixed-resolution games with ease.
 * [Yonder](https://github.com/thenerdie/Yonder) - State management.
