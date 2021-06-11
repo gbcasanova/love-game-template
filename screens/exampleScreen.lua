@@ -14,10 +14,10 @@ local function loadAssets()
     assets.sprites = {}
 
     -- Music.
-    assets.sprites = {}
+    assets.music = {}
 
     -- Sound effects.
-    assets.sprites = {}
+    assets.sfx = {}
 
     return assets
 end
